@@ -46,19 +46,19 @@ $req->messageList = new MessageList();
 
 $msg1 = new Message();
 $msg1->phone = '79871234567';
-$msg1->text = 'Тестовое сообщение 1';
+$msg1->text = 'Test message 1';
 $msg1->date = '2013-07-21T15:00:00.26';
 $msg1->type = 15;
 
 $msg2 = new Message();
 $msg2->phone = '79871234567';
-$msg2->text = 'Тестовое сообщение 2';
+$msg2->text = 'Test message 2';
 $msg2->date = '2014-08-22T16:01:10';
 $msg2->type = 16;
 
 $msg3 = new Message();
 $msg3->phone = '79871234567';
-$msg3->text = 'Тестовое сообщение 3';
+$msg3->text = 'Test message 3';
 $msg3->date = '2014-08-22T16:01:10';
 $msg3->type = 17;
 

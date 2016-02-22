@@ -35,11 +35,21 @@ $server->handle();
 
 class SoapSmsGateWay
 {
-    public $statust = true;
+    public $status;
+
+    public $messageList;
 
     public function sendSms($req)
     {
-        file_put_contents('zzz.txt', $req);
-        return $this->statust;
+        //file_put_contents('zzz.txt', printf($req));
+        $this->status = true;
+        $this->messageList = (object)$req->messageList;
+        foreach ($this->messageList as $message) {
+            ob_start();
+            var_dump($message);
+            file_put_contents('zzz.txt', ob_get_contents() . '\n', FILE_APPEND);
+        }
+
+        return $this;
     }
 }
