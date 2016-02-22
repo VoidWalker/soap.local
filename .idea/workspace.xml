@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a2ed159-09e1-4989-b52e-45fcf4e66078" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/SoapSmsGateWay.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client.php" afterPath="$PROJECT_DIR$/client.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smsservice.php" afterPath="$PROJECT_DIR$/smsservice.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="soap.local.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +28,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="client.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="client.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="2" selection-start="1232" selection-end="1232" vertical-scroll-proportion="-25.76923" vertical-offset="418" max-vertical-offset="1292">
+            <state line="63" column="13" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.60511035" vertical-offset="550" max-vertical-offset="1411">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoapSmsGateWay.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/SoapSmsGateWay.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="37" selection-start="149" selection-end="149" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="340">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
               <folding />
             </state>
           </provider>
@@ -37,16 +58,18 @@
       <file leaf-file-name="smsservice.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smsservice.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="45" selection-start="1047" selection-end="1047" vertical-scroll-proportion="-11.403846" vertical-offset="172" max-vertical-offset="1020">
-              <folding />
+            <state line="30" column="18" selection-start="867" selection-end="867" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="612">
+              <folding>
+                <element signature="e#6#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smsservice.wsdl.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="smsservice.wsdl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smsservice.wsdl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="14" selection-start="3590" selection-end="3590" vertical-scroll-proportion="1.373849" vertical-offset="750" max-vertical-offset="1598">
+            <state line="18" column="49" selection-start="799" selection-end="799" vertical-scroll-proportion="-0.9807692" vertical-offset="255" max-vertical-offset="1598">
               <folding />
             </state>
           </provider>
@@ -67,10 +90,12 @@
       <list>
         <option value="$PROJECT_DIR$/info.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/client.php" />
         <option value="$PROJECT_DIR$/zzz.txt" />
-        <option value="$PROJECT_DIR$/smsservice.php" />
         <option value="$PROJECT_DIR$/smsservice.wsdl.php" />
+        <option value="$PROJECT_DIR$/client.php" />
+        <option value="$PROJECT_DIR$/classes/SoapSmsGateWay.php" />
+        <option value="$PROJECT_DIR$/smsservice.php" />
+        <option value="$PROJECT_DIR$/classes/SoapSmsGateWay.class.php" />
       </list>
     </option>
   </component>
@@ -130,6 +155,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soap.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soap.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -175,31 +214,39 @@
       <created>1456176177805</created>
       <updated>1456176177805</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="gitignore">
+      <created>1456176188287</created>
+      <updated>1456176188287</updated>
+    </task>
+    <task id="LOCAL-00004" summary="gitignore">
+      <created>1456176265882</created>
+      <updated>1456176265883</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25239617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39956802" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39956802" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
@@ -234,7 +281,9 @@
     <entry file="file://$PROJECT_DIR$/smsservice.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="1" selection-start="982" selection-end="982" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="850">
-          <folding />
+          <folding>
+            <element signature="e#6#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -257,23 +306,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client.php">
+    <entry file="file://$PROJECT_DIR$/smsservice.wsdl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="2" selection-start="1232" selection-end="1232" vertical-scroll-proportion="-25.76923" vertical-offset="418" max-vertical-offset="1292">
+        <state line="18" column="49" selection-start="799" selection-end="799" vertical-scroll-proportion="-0.9807692" vertical-offset="255" max-vertical-offset="1598">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smsservice.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="45" selection-start="1047" selection-end="1047" vertical-scroll-proportion="-11.403846" vertical-offset="172" max-vertical-offset="1020">
+        <state line="30" column="18" selection-start="867" selection-end="867" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="816">
+          <folding>
+            <element signature="e#6#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="887">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smsservice.wsdl.php">
+    <entry file="file://$PROJECT_DIR$/classes/SoapSmsGateWay.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="14" selection-start="3590" selection-end="3590" vertical-scroll-proportion="1.373849" vertical-offset="750" max-vertical-offset="1598">
+        <state line="7" column="37" selection-start="149" selection-end="149" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="13" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.60511035" vertical-offset="550" max-vertical-offset="1411">
           <folding />
         </state>
       </provider>
