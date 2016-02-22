@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a2ed159-09e1-4989-b52e-45fcf4e66078" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\xamp\htdocs\soap.local\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\xamp\htdocs\soap.local\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <ignored path="soap.local.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -172,7 +171,11 @@
       <created>1456176152762</created>
       <updated>1456176152762</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="gitignore">
+      <created>1456176177805</created>
+      <updated>1456176177805</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
