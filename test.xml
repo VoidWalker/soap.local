@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:enc="http://www.w3.org/2003/05/soap-encoding"
+              xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns1="http://soap.local/">
+    <env:Body>
+        <ns1:Request>
+            <ns1:messageList>
+                <message>
+                    <SOAP-ENC:Struct>
+                        <phone>79871234567</phone>
+                        <text>Тестовое сообщение 1</text>
+                        <date>2013-07-21T15:00:00.26</date>
+                        <type>15</type>
+                    </SOAP-ENC:Struct>
+                    <SOAP-ENC:Struct>
+                        <phone>79871234567</phone>
+                        <text>Тестовое сообщение 2</text>
+                        <date>2014-08-22T16:01:10</date>
+                        <type>16</type>
+                    </SOAP-ENC:Struct>
+                </message>
+            </ns1:messageList>
+        </ns1:Request>
+    </env:Body>
+</env:Envelope>
+
+        ---
