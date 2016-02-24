@@ -78,5 +78,7 @@ var_dump($req);
 var_dump(unserialize('a:2:{i:0;O:8:"stdClass":4:{s:5:"phone";s:11:"79871234567";s:4:"text";s:37:"Тестовое сообщение 1";s:4:"date";s:22:"2013-07-21T15:00:00.26";s:4:"type";s:2:"15";}i:1;O:8:"stdClass":4:{s:5:"phone";s:11:"79871234567";s:4:"text";s:37:"Тестовое сообщение 2";s:4:"date";s:19:"2014-08-22T16:01:10";s:4:"type";s:2:"16";}}'));
 $uri = "http://{$_SERVER['HTTP_HOST']}/smsservice.wsdl.php";
 $client = new SoapClient($uri,
-    array('soap_version' => SOAP_1_2));
+    array('soap_version' => SOAP_1_2, 'trace' => 1));
 var_dump($client->sendSms($req));
+
+file_put_contents("request.xml", $client->__getLastRequest());
