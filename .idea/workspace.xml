@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a2ed159-09e1-4989-b52e-45fcf4e66078" name="Default" comment="original">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.xml" />
-      <change type="DELETED" beforePath="D:\xamp\htdocs\soap.local\.idea\workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/SoapSmsGateWay.class.php" afterPath="$PROJECT_DIR$/classes/SoapSmsGateWay.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client.php" afterPath="$PROJECT_DIR$/client.php" />
+    <list default="true" id="2a2ed159-09e1-4989-b52e-45fcf4e66078" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/soap.local.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <ignored path="soap.local.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,7 +52,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="5" selection-start="55" selection-end="55" vertical-scroll-proportion="0.028571429" vertical-offset="0" max-vertical-offset="595">
+            <state line="1" column="6" selection-start="56" selection-end="56" vertical-scroll-proportion="0.02852349" vertical-offset="0" max-vertical-offset="596">
               <folding />
             </state>
           </provider>
@@ -67,7 +70,7 @@
       <file leaf-file-name="log.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/log.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="414" selection-start="675" selection-end="1089" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+            <state line="6" column="414" selection-start="675" selection-end="1089" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
               <folding />
             </state>
           </provider>
@@ -97,7 +100,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/info.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/zzz.txt" />
         <option value="$PROJECT_DIR$/smsservice.wsdl.php" />
         <option value="$PROJECT_DIR$/classes/SoapSmsGateWay.php" />
@@ -107,6 +109,7 @@
         <option value="$PROJECT_DIR$/client.php" />
         <option value="$PROJECT_DIR$/classes/SoapSmsGateWay.class.php" />
         <option value="$PROJECT_DIR$/pars.txt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -163,20 +166,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="soap.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soap.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soap.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -238,32 +227,60 @@
       <created>1456176842262</created>
       <updated>1456176842262</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="original">
+      <created>1456262865944</created>
+      <updated>1456262865944</updated>
+    </task>
+    <task id="LOCAL-00007" summary="gitignore update">
+      <created>1456341800177</created>
+      <updated>1456341800177</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32937366" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32829374" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2550586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25772098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39956802" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -280,7 +297,8 @@
     </option>
     <MESSAGE value="gitignore" />
     <MESSAGE value="original" />
-    <option name="LAST_COMMIT_MESSAGE" value="original" />
+    <MESSAGE value="gitignore update" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -288,6 +306,48 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="333" selection-start="3999" selection-end="3999" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1479">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/SoapSmsGateWay.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="62" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="5" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="119">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pars.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="414" selection-start="675" selection-end="1089" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="36" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="63" column="13" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0" vertical-offset="550" max-vertical-offset="1411">
@@ -311,16 +371,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/smsservice.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="18" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="612">
-          <folding />
-        </state>
+        <state line="30" column="18" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="612" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smsservice.wsdl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="49" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1598">
-          <folding />
-        </state>
+        <state line="18" column="49" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1598" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client.php">
@@ -332,16 +388,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/smsservice.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="1" selection-start="982" selection-end="982" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="850">
-          <folding />
-        </state>
+        <state line="44" column="1" selection-start="982" selection-end="982" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="850" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smsservice.wsdl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="32" selection-start="2701" selection-end="2708" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1598">
-          <folding />
-        </state>
+        <state line="62" column="32" selection-start="2701" selection-end="2708" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1598" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/info.php">
@@ -351,35 +403,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/smsservice.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="18" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="612">
-          <folding />
-        </state>
+        <state line="30" column="18" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="612" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smsservice.wsdl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="56" selection-start="1641" selection-end="1641" vertical-scroll-proportion="0.33066362" vertical-offset="255" max-vertical-offset="1598">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="36" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <folding />
-        </state>
+        <state line="32" column="56" selection-start="1641" selection-end="1641" vertical-scroll-proportion="0.33066362" vertical-offset="255" max-vertical-offset="1598" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/log.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="414" selection-start="675" selection-end="1089" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="333" selection-start="3999" selection-end="3999" vertical-scroll-proportion="-27.23077" vertical-offset="601" max-vertical-offset="1479">
           <folding />
         </state>
       </provider>
@@ -398,9 +432,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="333" selection-start="3999" selection-end="3999" vertical-scroll-proportion="-27.23077" vertical-offset="601" max-vertical-offset="1479">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="36" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="5" selection-start="55" selection-end="55" vertical-scroll-proportion="0.028571429" vertical-offset="0" max-vertical-offset="595">
+        <state line="1" column="6" selection-start="56" selection-end="56" vertical-scroll-proportion="0.02852349" vertical-offset="0" max-vertical-offset="596">
           <folding />
         </state>
       </provider>
