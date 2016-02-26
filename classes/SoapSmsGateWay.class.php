@@ -4,9 +4,11 @@ class SoapSmsGateWay
 {
     public function sendSms($messagesData)
     {
-        foreach ($messagesData->messageList->message->Struct as $message) {
-            file_put_contents("pars.txt", $message->text . '\n', FILE_APPEND);
-        }
+        ob_start();
+        var_dump($messagesData);
+        $result = ob_get_clean();
+        file_put_contents("pars.txt", $result);
+
 
         //file_put_contents("pars.txt", serialize($messagesData->messageList->message->Struct));
 

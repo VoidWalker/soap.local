@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Request>
+    <messageList>
+        <message>
+            <phone>79871234567</phone>
+            <text>Тестовое сообщение 1</text>
+            <date>2013-07-21T15:00:00.26</date>
+            <type>15</type>
+        </message>
+        <message>
+            <phone>79871234567</phone>
+            <text>Тестовое сообщение 2</text>
+            <date>2014-08-22T16:01:10</date>
+            <type>16</type>
+        </message>
+    </messageList>
+</Request>
